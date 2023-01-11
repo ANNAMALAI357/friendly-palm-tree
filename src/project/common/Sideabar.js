@@ -29,18 +29,14 @@ function Sideabar() {
                 mb: 1,
                 borderRadius: "12px",
                 backgroundColor: isActive
-                  ? theme.palette.palette2.layer4
-                  : theme.palette.palette2.layer3,
+                  ? theme.palette.bluePalette.layer4
+                  : theme.palette.bluePalette.layer3,
                 border: isActive
                   ? `2px solid ${theme.palette.background.default}`
                   : `2px solid transparent`,
                 outline: isActive
-                  ? `2px solid ${theme.palette.palette2.layer3}`
+                  ? `2px solid ${theme.palette.bluePalette.layer4}`
                   : `2px solid transparent`,
-                "&:hover": {
-                  bgcolor: theme.palette.palette2.layer4,
-                  outline: `2px solid ${theme.palette.palette2.layer4}`,
-                },
               };
             }}>
             <ListItemIcon>
@@ -62,18 +58,14 @@ function Sideabar() {
                 mb: 1,
                 borderRadius: "12px",
                 backgroundColor: isActive
-                  ? theme.palette.palette2.layer4
-                  : theme.palette.palette2.layer3,
+                  ? theme.palette.bluePalette.layer4
+                  : theme.palette.bluePalette.layer3,
                 border: isActive
                   ? `2px solid ${theme.palette.background.default}`
                   : `2px solid transparent`,
                 outline: isActive
-                  ? `2px solid ${theme.palette.palette2.layer3}`
+                  ? `2px solid ${theme.palette.bluePalette.layer4}`
                   : `2px solid transparent`,
-                "&:hover": {
-                  bgcolor: theme.palette.palette2.layer4,
-                  outline: `2px solid ${theme.palette.palette2.layer4}`,
-                },
               };
             }}>
             <ListItemIcon>
@@ -95,18 +87,14 @@ function Sideabar() {
                 mb: 1,
                 borderRadius: "12px",
                 backgroundColor: isActive
-                  ? theme.palette.palette2.layer4
-                  : theme.palette.palette2.layer3,
+                  ? theme.palette.bluePalette.layer4
+                  : theme.palette.bluePalette.layer3,
                 border: isActive
                   ? `2px solid ${theme.palette.background.default}`
                   : `2px solid transparent`,
                 outline: isActive
-                  ? `2px solid ${theme.palette.palette2.layer3}`
+                  ? `2px solid ${theme.palette.bluePalette.layer4}`
                   : `2px solid transparent`,
-                "&:hover": {
-                  bgcolor: theme.palette.palette2.layer4,
-                  outline: `2px solid ${theme.palette.palette2.layer4}`,
-                },
               };
             }}>
             <ListItemIcon>
@@ -128,18 +116,14 @@ function Sideabar() {
                 mb: 1,
                 borderRadius: "12px",
                 backgroundColor: isActive
-                  ? theme.palette.palette2.layer4
-                  : theme.palette.palette2.layer3,
+                  ? theme.palette.bluePalette.layer4
+                  : theme.palette.bluePalette.layer3,
                 border: isActive
                   ? `2px solid ${theme.palette.background.default}`
                   : `2px solid transparent`,
                 outline: isActive
-                  ? `2px solid ${theme.palette.palette2.layer3}`
+                  ? `2px solid ${theme.palette.bluePalette.layer4}`
                   : `2px solid transparent`,
-                "&:hover": {
-                  bgcolor: theme.palette.palette2.layer4,
-                  outline: `2px solid ${theme.palette.palette2.layer4}`,
-                },
               };
             }}>
             <ListItemIcon>
