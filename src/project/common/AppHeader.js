@@ -7,12 +7,14 @@ import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Outlet } from "react-router-dom";
 import { useTheme } from "@emotion/react";
+import { CssBaseline } from "@mui/material";
 
 function AppHeader() {
   const theme = useTheme();
 
   return (
     <Box sx={{ flexGrow: 1, backgroundColor:theme.palette.background.default }}>
+      <CssBaseline />
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" color="inherit" component="div">
