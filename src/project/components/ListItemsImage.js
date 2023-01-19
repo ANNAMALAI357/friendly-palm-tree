@@ -5,7 +5,8 @@ import ImageListItemBar from "@mui/material/ImageListItemBar";
 import ListSubheader from "@mui/material/ListSubheader";
 import IconButton from "@mui/material/IconButton";
 import InfoIcon from "@mui/icons-material/Info";
-import { Paper } from "@mui/material";
+import { Paper, Typography } from "@mui/material";
+import { useTheme } from "@emotion/react";
 
 const itemData = [
   {
@@ -82,15 +83,24 @@ const itemData = [
 ];
 
 export default function ListITemsImage() {
+  const theme = useTheme();
   return (
     <Paper
-    sx={{
-      p:0.25
-    }}
-    >
+      sx={{
+        px: 0.25,
+        backgroundColor: theme.palette.greyPalette.layer1,
+      }}>
       <ImageList sx={{ width: 500, height: 450 }}>
-        <ImageListItem key="Subheader" cols={2}sx={{position:"sticky"}}>
-          <ListSubheader component="div" >Food Items</ListSubheader>
+        <ImageListItem key="Subheader" cols={2}>
+          <ListSubheader
+            component="div"
+            sx={{
+              borderRadius: "8px",
+              backgroundColor: theme.palette.bluePalette.layer2,
+              py: 2,
+            }}>
+            <Typography sx={{ color: "#fff" }}>Food Items</Typography>
+          </ListSubheader>
         </ImageListItem>
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
