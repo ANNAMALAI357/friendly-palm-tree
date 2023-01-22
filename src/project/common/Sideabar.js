@@ -101,7 +101,7 @@ function Sideabar() {
               <AllInboxIcon />
             </ListItemIcon>
             <ListItemText
-              primary="Page 2"
+              primary="Track Shipment Status"
               primaryTypographyProps={{ sx: { color: "white" } }}
             />
           </ListItemButton>
