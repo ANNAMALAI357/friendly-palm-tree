@@ -29,19 +29,19 @@ export default function OrderScrollBar() {
                 <CustomAppBar title="Orders & Details"/>
             </Grid>
             <Grid item>
-            <Grid container direction="row" spacing={1}>
+            <Grid container direction="row">
             <Grid item xs={4}>
             <FixedSizeList
-        height={300}
-        width={200}
+        height={250}
+        width={100}
         itemSize={46}
-        itemCount={10}
+        itemCount={5}
         overscanCount={5}
       >
         {renderRow}
       </FixedSizeList>
             </Grid>
-            <Grid item xs={8} sx={{mt:1,ml:-2}}>
+            <Grid item xs={8} sx={{mt:1,ml:-8}}>
                 <OrderDetails/>
             </Grid>
         </Grid>

@@ -29,7 +29,7 @@ function Page1() {
         <Grid item xs={3}>
           <CustomCalender/>
         </Grid>
-        <Grid item xs={9}>
+        <Grid item xs={6}>
           <OrderScrollBar/>
         </Grid>
       </Grid>
